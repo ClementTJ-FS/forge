@@ -36,3 +36,11 @@ AI
 - [ ] AI Assistant
 - [ ] RAG
 - [ ] Agents
+
+## frontend instructions
+Run the following commands to start the frontend development server:
+1. cd frontend
+2. npm install
+3. npm run dev
+4. npm run lint
+5. npm run build
