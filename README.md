@@ -36,3 +36,10 @@ AI
 - [ ] AI Assistant
 - [ ] RAG
 - [ ] Agents
+
+## frontend instructions
+Run the following commands in the frontend directory:
+1. npm install
+2. npm run dev
+3. npm run lint
+4. npm run build
