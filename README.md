@@ -37,10 +37,51 @@ AI
 - [ ] RAG
 - [ ] Agents
 
-## frontend instructions
-Run the following commands to start the frontend development server:
-1. cd frontend
-2. npm install
-3. npm run dev
-4. npm run lint
-5. npm run build
+## Local development
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+To verify the frontend, run `npm run lint` and `npm run build` from `frontend/`.
+
+### Backend
+
+#### Windows — Git Bash
+
+```bash
+cd backend
+py -m venv .venv
+source .venv/Scripts/activate
+python -m pip install -r requirements.txt
+python -m uvicorn main:app --reload
+```
+
+#### Windows — PowerShell
+
+```powershell
+cd backend
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m uvicorn main:app --reload
+```
+
+#### macOS/Linux
+
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m uvicorn main:app --reload
+```
+
+Once the backend is running:
+
+- Health: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
+- API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
