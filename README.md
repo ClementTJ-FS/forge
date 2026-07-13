@@ -29,13 +29,11 @@ AI
 
 ## Roadmap
 
-- [ ] Sprint 0
-- [ ] Sprint 1
-- [ ] Authentication
-- [ ] Blog
-- [ ] AI Assistant
-- [ ] RAG
-- [ ] Agents
+- [x] Foundation: repository setup, React frontend, and FastAPI health service
+- [ ] Portfolio: build the about, projects, and contact pages
+- [ ] Content: add a blog with Markdown publishing
+- [ ] Platform: add authentication and PostgreSQL persistence
+- [ ] AI: build an assistant, RAG search, and agent workflows
 
 ## Local development
 
