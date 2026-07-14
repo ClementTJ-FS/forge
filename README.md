@@ -37,6 +37,10 @@ AI
 
 ## Local development
 
+### Prerequisites
+node.js v22.12.0
+Python 3.14.5
+
 ### Frontend
 
 ```bash
