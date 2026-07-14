@@ -28,3 +28,8 @@ Decision #005
 Why PostgreSQL instead of SQLite?
 
 Because PostgreSQL is more robust, scalable, and has better support for advanced features like full-text search, JSON data types, and concurrency. It is also a better choice for production environments and can handle larger datasets and more complex queries than SQLite.
+
+Decision #006
+Why ruff instead of other linters?
+
+Ruff provides both formatting and linting, supports Python 3.14, and keeps the backend toolchain small.

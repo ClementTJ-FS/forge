@@ -1,4 +1,5 @@
-""" FastAPI application for Forge."""
+"""FastAPI application for Forge."""
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -7,6 +8,7 @@ app = FastAPI()
 
 class HealthResponse(BaseModel):
     """Pydantic model for /health response."""
+
     status: str
 
 

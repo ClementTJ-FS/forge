@@ -38,6 +38,7 @@ AI
 ## Local development
 
 ### Prerequisites
+
 node.js v22.12.0
 Python 3.14.5
 
@@ -50,6 +51,7 @@ npm run dev
 ```
 
 To verify the frontend, run `npm run lint` and `npm run build` from `frontend/`.
+
 
 ### Backend
 
@@ -87,3 +89,30 @@ Once the backend is running:
 
 - Health: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
 - API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+## Quality checks
+
+### Frontend
+
+From `frontend/`, run the following commands to verify linting and the production build:
+
+```bash
+npm run lint
+npm run build
+```
+
+### Backend
+
+From `backend/`, with the virtual environment activated:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest
+python -m ruff check .
+python -m ruff format --check .
+```
+To apply formatting automatically:
+
+```bash
+python -m ruff format .
+```
