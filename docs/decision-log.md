@@ -37,4 +37,4 @@ Ruff provides both formatting and linting, supports Python 3.14, and keeps the b
 Decision #007
 Why MIT license?
 
-MIT was selected because Forge is an open portfolio and learning project, and permissive reuse lowers friction. Others may use Forge as a reference or starting point for their own projects, as long as they include the copyright notice and license in their own work.
+Forge is an open portfolio and learning project, and a permissive license lowers friction for learning and reuse. The tradeoff is that others may modify, redistribute, or commercially use the code, including in proprietary projects, provided copies or substantial portions retain the copyright and MIT license notice.
