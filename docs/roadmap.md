@@ -1,24 +1,55 @@
-Sprint 0
+# Forge Roadmap
 
-☐ Initialize repo
-☐ FastAPI
-☐ React
-☐ Docker
+Forge is built in small, verified milestones. Each milestone should leave the
+project in a working state and improve one part of the full-stack AI engineering
+journey.
 
-Sprint 1
+## 1. Foundation
 
-☐ Portfolio page
-☐ About page
-☐ Projects
-☐ Contact
+Establish a reproducible local development environment before adding product
+features.
 
-Sprint 2
+- [x] Initialize the repository, project documentation, and ignore rules
+- [x] Create the React, TypeScript, and Vite frontend
+- [x] Create the FastAPI backend and `GET /health` endpoint
+- [x] Document and verify the local developer workflow
+- [ ] Add baseline code quality checks: backend formatting, linting, and a health-endpoint test
+- [ ] Run the Foundation release checklist
 
-☐ Blog
-☐ Markdown support
+## 2. Portfolio Experience
 
-Sprint 3
+Turn Forge into a clear portfolio for the work being built.
 
-☐ Authentication
+- [ ] Create the portfolio landing page
+- [ ] Add an about page
+- [ ] Build a projects showcase
+- [ ] Add a contact page
 
-...
+## 3. Content Publishing
+
+Document the journey through technical writing.
+
+- [ ] Add a blog
+- [ ] Add Markdown authoring and rendering support
+
+## 4. Platform Foundations
+
+Introduce the persistence and identity capabilities needed for a real product.
+
+- [ ] Add PostgreSQL persistence
+- [ ] Add authentication
+
+## 5. AI Engineering Lab
+
+Build AI capabilities incrementally on top of the application foundation.
+
+- [ ] Build an AI assistant
+- [ ] Add retrieval-augmented generation (RAG) search
+- [ ] Explore agent workflows
+
+## Guiding Principles
+
+- Keep `main` working at all times.
+- Deliver one focused issue at a time.
+- Verify each milestone locally before merging it.
+- Record meaningful technical decisions in the decision log.
