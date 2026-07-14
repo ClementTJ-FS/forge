@@ -14,7 +14,7 @@ features.
 - [x] Create the FastAPI backend and `GET /health` endpoint
 - [x] Document and verify the local developer workflow
 - [x] Add baseline code quality checks: backend formatting, linting, and a health-endpoint test
-- [ ] Run the Foundation release checklist
+- [x] Run the Foundation release checklist
 
 ## 2. Portfolio Experience
 
