@@ -33,3 +33,8 @@ Decision #006
 Why ruff instead of other linters?
 
 Ruff provides both formatting and linting, supports Python 3.14, and keeps the backend toolchain small.
+
+Decision #007
+Why MIT license?
+
+MIT was selected because Forge is an open portfolio and learning project, and permissive reuse lowers friction. Others may use Forge as a reference or starting point for their own projects, as long as they include the copyright notice and license in their own work.
